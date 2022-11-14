@@ -6,7 +6,32 @@
         xmlns:local="clr-namespace:RabbitFarm"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="LightGreen">
+        <StackPanel>
+            <TextBlock Text="Rabbit Farm" FontSize="20" Margin="5"></TextBlock>
+            <WrapPanel HorizontalAlignment="Left" Margin="10">
+                <TextBlock HorizontalAlignment="Left" Text="aantal boerderij huizen:" Margin="10"></TextBlock>
+                <TextBox HorizontalAlignment="Center" Name="huizenTextbox" Width="250" Height="20"></TextBox>
+            </WrapPanel>
+            <WrapPanel HorizontalAlignment="Left" Margin="10">
+                <TextBlock HorizontalAlignment="Left" Text="aantal boerderij velden:" Margin="10"></TextBlock>
+                <TextBox HorizontalAlignment="Center" Name="veldenTextbox" Width="250" Height="20"></TextBox>
+                <Button HorizontalAlignment="Right" x:Name="berekenButton" Content="Bereken capaciteit" Margin="5" Height="20" Width="250" Click="berekenButton_Click"></Button>
+            </WrapPanel>
+            <WrapPanel HorizontalAlignment="Left" Margin="10">
+                <TextBlock HorizontalAlignment="Left" Text="aantal boerderij velden:" Margin="10"></TextBlock>
+                <TextBox HorizontalAlignment="Center" Name="sprongTextbox" Width="250" Height="20"></TextBox>
+                <Button HorizontalAlignment="Right" x:Name="simulatieButton" Content="Simulatie" Margin="5" Height="20" Width="250" Click="simulatieButton_Click"></Button>
+            </WrapPanel>
+            <WrapPanel HorizontalAlignment="Left" Margin="10" Width="393">
+                <TextBlock HorizontalAlignment="Left" Text="aantal maanden:" Margin="10"></TextBlock>
+                <TextBox HorizontalAlignment="Center" x:Name="aantalmaandTextbox" Width="250" Height="20"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button VerticalAlignment="Top" HorizontalAlignment="Right" Name="wissenButton" Content="Wissen" Margin="5" Height="20" Width="250" Click="wissenButton_Click"/>
+                <TextBox Name="outputTextbox" HorizontalAlignment="Right" Width="395" Height="130"></TextBox>
+            </WrapPanel>
+        </StackPanel>
 
     </Grid>
 </Window>
