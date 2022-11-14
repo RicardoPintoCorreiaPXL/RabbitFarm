@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\corre\\Desktop\\RabbitFarmNET\\RabbitFarm\\RabbitFarm.csproj",
+      "projectUniqueName": "C:\\Users\\corre\\Desktop\\DOTNETPRO\\RabbitFarm\\RabbitFarm\\RabbitFarm.csproj",
       "projectName": "RabbitFarm",
-      "projectPath": "C:\\Users\\corre\\Desktop\\RabbitFarmNET\\RabbitFarm\\RabbitFarm.csproj",
+      "projectPath": "C:\\Users\\corre\\Desktop\\DOTNETPRO\\RabbitFarm\\RabbitFarm\\RabbitFarm.csproj",
       "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\corre\\Desktop\\RabbitFarmNET\\RabbitFarm\\obj\\",
+      "outputPath": "C:\\Users\\corre\\Desktop\\DOTNETPRO\\RabbitFarm\\RabbitFarm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\corre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

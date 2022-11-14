@@ -9,7 +9,7 @@
     <Grid Background="LightGreen">
         <StackPanel>
             <TextBlock Text="Rabbit Farm" FontSize="20" Margin="5"></TextBlock>
-            <WrapPanel HorizontalAlignment="Left" Margin="10">
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10" Width="765">
                 <TextBlock HorizontalAlignment="Left" Text="aantal boerderij huizen:" Margin="10"></TextBlock>
                 <TextBox HorizontalAlignment="Center" Name="huizenTextbox" Width="250" Height="20"></TextBox>
             </WrapPanel>
