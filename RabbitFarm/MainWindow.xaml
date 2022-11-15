@@ -19,7 +19,7 @@
                 <Button HorizontalAlignment="Right" x:Name="berekenButton" Content="Bereken capaciteit" Margin="5" Height="20" Width="250" Click="berekenButton_Click"></Button>
             </WrapPanel>
             <WrapPanel HorizontalAlignment="Left" Margin="10">
-                <TextBlock HorizontalAlignment="Left" Text="aantal boerderij velden:" Margin="10"></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Text="sprong:" Margin="10"></TextBlock>
                 <TextBox HorizontalAlignment="Center" Name="sprongTextbox" Width="250" Height="20"></TextBox>
                 <Button HorizontalAlignment="Right" x:Name="simulatieButton" Content="Simulatie" Margin="5" Height="20" Width="250" Click="simulatieButton_Click"></Button>
             </WrapPanel>
